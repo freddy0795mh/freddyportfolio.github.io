@@ -13,37 +13,54 @@
     <header class="d-flex justify-content-between align-items-center" id="header">
       <div class="w-75">
         <ul class="nav justify-content-center p-4">
-          <li><a href="#" class="nav-link px-2 link-light fs-5 fw-bolder">Inicio</a></li>
-          <li><a href="#" class="nav-link px-2 link-light ms-4 fs-5 fw-bolder">Sobre mi</a></li>
-          <li><a href="#" class="nav-link px-2 link-light ms-4 fs-5 fw-bolder">Proyectos</a></li>
-          <li><a href="#" class="nav-link px-2 link-light ms-4 fs-5 fw-bolder">Contacto</a></li>
+          <li><a href="#header" class="nav-link px-2 link-danger fw-bolder li-menu-ul">Inicio</a></li>
+          <li><a href="#about" class="nav-link px-2 link-light ms-4 fw-bolder li-menu-ul">Sobre mi</a></li>
+          <li><a href="#projects" class="nav-link px-2 link-light ms-4 fw-bolder li-menu-ul">Proyectos</a></li>
+          <li><a href="#contact" class="nav-link px-2 link-light ms-4 fw-bolder li-menu-ul">Contacto</a></li>
         </ul>
       </div>
       <div class="w-25">
         <ul class="d-flex justify-content-center p-4">
           <li class="social nav-link">
-            <img src="./images/iconos/facebook.png" alt="">
+            <img src="./images/iconos/facebook.png" alt="facebook" title="Facebook">
           </li>
           <li class="social nav-link ms-4">
-            <img src="./images/iconos/linkedin.png" alt="">
+            <img src="./images/iconos/linkedin.png" alt="linkedin" title="Linkedin">
           </li>
         </ul>
       </div>
     </header>
     <main>
       <section class="d-flex" id="main-portada">
-        <div class="w-50">
-
+        <div class="w-50 d-flex justify-content-end align-items-center ms-5">
+          <div class="img-portada">
+            <img src="./images/fotportada.png" alt="" class="img-perfil-portada">
+          </div>
         </div>
-        <div class="w-50 d-flex align-items-center">
+        <div class="w-50 d-flex align-items-center title-main">
           <div class="p-4 d-flex flex-column justify-content-center">
-            <p class="fs-1 text-white">Hola!</p>
-            <p class="fs-2 text-white">Soy Freddy Muñoz</p>
-            <p class="fs-3 text-white">Un desarrollador web FullStack</p>
+            <p class="ftitle-1 text-white">Hola!</p>
+            <p class="ftitle-2 text-white">Me llamo Freddy Muñoz</p>
+            <p class="ftitle-3 text-white">Soy desarrollador web FullStack</p>
+            <button type="button" class="btn btn-danger btn-lg px-4 gap-3 w-50 mt-4"><a href="#projects" class="nav-link px-2 link-light">Ver Proyectos</a></button>
           </div>
         </div>
       </section>
+      <section id="ancla" class="d-flex justify-content-center align-items-center">
+        <a href="#about" class="text-light"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-arrow-down-circle-fill" viewBox="0 0 16 16">
+          <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V4.5z"/>
+        </svg></a>
+      </section>
+      <section id="about">
+
+      </section>
+      <section id="projects">
+
+      </section>
+      <section id="contact">
+
+      </section>
     </main>
-    <footer>HOLLASSA</footer>
+    <footer></footer>
 </body>
 </html>

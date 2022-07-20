@@ -12,8 +12,63 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 50%, rgba(2,
 
 #header{
     height: 15vh !important;
+    font-size: 1.3rem;
 }
 
 #main-portada{
-    height: 85vh;
+    height: 75vh;
+}
+
+#ancla{
+    height: 10vh;
+}
+
+.img-perfil-portada{
+    width: 100%;
+    height: 100%;
+    filter: none;
+    cursor: pointer;
+}
+
+#about{
+    height: 100vh;
+    background-color: bisque;
+}
+
+#projects{
+    height: 100vh;
+    background-color: gray;
+}
+
+#contact{
+    height: 100vh;
+    background-color: red;
+}
+
+.ftitle-1{
+    font-size: 3.2rem;
+    line-height: 20px;
+}
+.ftitle-2{
+    font-size: 2.8rem;
+}
+.ftitle-3{
+    line-height: 20px;
+    font-size: 1.6rem;
+}
+
+.li-menu-ul:hover{
+    color: #dc3545 !important; 
+}
+
+.img-portada{
+    width: 395px;
+    height: 400px;
+    display: flex !important;
+    justify-content: end !important;
+    margin-right: 100px;
+}
+
+.social{
+    cursor: pointer;
 }
