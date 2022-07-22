@@ -3,13 +3,13 @@
 *{
     margin: 0;
     border: 0;
-    box-sizing: border-box;  
-    font-family: 'Roboto',sans-serif;  
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif !important;
 }
 
 body{
     background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 50%, rgba(2,0,36,1) 100%);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 50%, rgba(2,0,36,1) 100%);
 }
 
 #header{
@@ -18,7 +18,8 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 50%, rgba(2,
     position: fixed;
     width: 100%;
     background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 50%, rgba(2,0,36,1) 100%);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 50%, rgba(2,0,36,1) 100%); 
+    z-index: 10;
 }
 
 #main-portada{
@@ -48,11 +49,13 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 50%, rgba(2,
 
 #competencias{
     height: auto;
+    padding-top: 100px !important;
+    background-color:#f8f9fa;
 }
 
 #contact{
     height: 100vh;
-    background-color: red;
+    background-color: white;
 }
 
 .ftitle-1{
@@ -114,6 +117,28 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 50%, rgba(2,
     font-family: 'Fira Sans', sans-serif;
     text-align: justify;
     font-size: 1.1rem;
+}
+
+.content-contact{
+    padding-top: 20vh;
+    height: 100vh;
+}
+
+.input-cont{
+    height: 50px;
+}
+
+.text-area-cont{
+    height: 150px;
+}
+
+.icon-contact-social{
+    width: 48px !important;
+}
+
+footer{
+    height: 10vh;
+    background-color:#f8f9fa;
 }
 
 @media (max-width : 768px) {
