@@ -59,22 +59,82 @@
             <div class="mt-3"><p class="text-justify text-dark text-about fw-bolder">Mi nombre es Freddy Muñoz soy Tecnico en Computacion e Informática. Actualmente estudio la carrera de Ingenieria de Software en la UNIVERSIDAD PRIVADA ALEMANO PERUANA. Me considero una persona con capacidad de trabajo en equipo, aprendizaje rapido, adaptabilidad, paciencia, capacidad de respuesta y siempre me encuentro en constante aprendizaje. Me gusta hacer deporte, jugar futbol, atletismo y otras actividades. Especialista en software, hardware, redes y base de datos. Desarrollador web capacitado en lenguajes de programación como Javascript, PHP, preprocesador SASS, framework Bootstrap, Libreria React JS y CMS WordPress.</p>
             </div>
             <div class="d-flex justify-content-center align-items-center mt-2">
-              <button type="button" class="btn btn-danger btn-lg px-4 gap-3 mt-4 btn-cv"><a href="" class="nav-link px-2 link-light">Ver mi CV</a></button>
+              <button type="button" class="btn btn-danger btn-lg px-4 gap-3 mt-4 btn-cv"><a href="./docs/CV-FreddyMuñoz.pdf" target="_blank" class="nav-link px-2 link-light">Ver mi CV</a></button>
             </div>
           </div>
           <div class="col-sm-6">
             <div class="d-flex flex-wrap justify-content-center align-items-center mt-3 p-4">
-              <div class="doc-pdf p-3"><img src="./docs/diploma-frontend-developer_001.png" alt="" class="cert-img"></div>
-              <div class="doc-pdf p-3"><img src="./docs/diploma-mobile-first_001.png" alt="" class="cert-img"></div>
-              <div class="doc-pdf p-3"><img src="./docs/CV-FreddyMuñoz_010.png" alt="" class="cert-img"></div>
-              <div class="doc-pdf p-3"><img src="./docs/CV-FreddyMuñoz_011.png" alt="" class="cert-img"></div>
+              <div class="doc-pdf p-3"><img src="./docs/diploma-frontend-developer_001.png" alt="" class="cert-img" data-bs-toggle="modal" data-bs-target="#modal1"></div>
+              <div class="doc-pdf p-3"><img src="./docs/diploma-mobile-first_001.png" alt="" class="cert-img" data-bs-toggle="modal" data-bs-target="#modal2"></div>
+              <div class="doc-pdf p-3"><img src="./docs/CV-FreddyMuñoz_010.png" alt="" class="cert-img" data-bs-toggle="modal" data-bs-target="#modal3"></div>
+              <div class="doc-pdf p-3"><img src="./docs/CV-FreddyMuñoz_011.png" alt="" class="cert-img" data-bs-toggle="modal" data-bs-target="#modal4"></div>
+            </div>
+          </div>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog d-flex justify-content-center align-items-center">
+            <div class="modal-content" style="width: auto;">
+              <div class="modal-header">
+                <div class="d-flex justify-content-end w-100 align-items-center">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+              </div>
+              <div class="modal-body w-auto">
+                <img src="./docs/diploma-frontend-developer_001.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog d-flex justify-content-center align-items-center">
+            <div class="modal-content" style="width: auto;">
+              <div class="modal-header">
+                <div class="d-flex justify-content-end w-100 align-items-center">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+              </div>
+              <div class="modal-body w-auto">
+                <img src="./docs/diploma-ingenieria_001.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="modal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog d-flex justify-content-center align-items-center">
+            <div class="modal-content" style="width: auto;">
+              <div class="modal-header">
+                <div class="d-flex justify-content-end w-100 align-items-center">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+              </div>
+              <div class="modal-body w-auto">
+                <img src="./docs/CV-FreddyMuñoz_010.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="modal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog d-flex justify-content-center align-items-center">
+            <div class="modal-content" style="width: auto;">
+              <div class="modal-header">
+                <div class="d-flex justify-content-end w-100 align-items-center">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+              </div>
+              <div class="modal-body w-auto">
+                <img src="./docs/CV-FreddyMuñoz_011.png" alt="">
+              </div>
             </div>
           </div>
         </div>
       </section>
       <section id="competencias" class="p-4 text-dark">
         <div class="p-4 mt-5 content-competencias">
-            <h2 class="text-danger w-100 d-flex justify-content-center fw-bolder fs-1">COMPETENCIAS GENERALES</h2>
+            <h2 class="text-danger w-100 d-flex justify-content-center fw-bolder fs-1 text-title-compt">COMPETENCIAS GENERALES</h2>
             <div class="compt-general mt-5 pe-5 ps-5">
               <h3 class="ps-5 text-danger fs-1">Liderazgo</h3>
               <div class="d-flex flex-row justify-content-between">
@@ -84,7 +144,7 @@
                   Elaboracion de nuestro proyecto en formato PDF el cual sustentamos y se desarrollo en Python. 
                 </p>
                 <div class="w-25">
-                  <object data="./docs/competencias/Proyecto Final Fundamentos de programacion.pdf" height="270px" width="350" scrollbar="0" class="objt"></object>
+                  <object data="./docs/competencias/Proyecto Final Fundamentos de programacion.pdf" height="250px" width="350" scrollbar="0" class="img-competencias"></object>
                 </div>
               </div>
             </div>
@@ -98,7 +158,7 @@
                 </p>
                 <div class="w-25">
                   <div>
-                    <img src="./docs/diploma-frontend-developer_001.png" alt="" width="350" height="250">
+                    <img src="./docs/diploma-frontend-developer_001.png" alt="" width="350" height="250" class="img-competencias">
                   </div>
                 </div>
               </div>
@@ -112,7 +172,7 @@
                   Pagina web Oficial
                 </p>
                 <div class="w-25">
-                  <a href="https://www.shumanperu.com/en/" target="_blank"><img src="./docs/competencias/captura2.png" alt="" width="350" height="250"></a>
+                  <a href="https://www.shumanperu.com/en/" target="_blank"><img src="./docs/competencias/captura2.png" alt="" width="350" height="250" class="img-competencias"></a>
                 </div>
               </div>
             </div>
@@ -125,11 +185,11 @@
                   Espacio de Trabajo en Trello 
                 </p>
                 <div class="w-25">
-                  <img src="./docs/competencias/captura1.png" alt="" width="350" height="250">
+                  <img src="./docs/competencias/captura1.png" alt="" width="350" height="250" class="img-competencias">
                 </div>
               </div>
             </div>
-            <div class="compt-general mt-5 ps-5 pe-5">
+            <div class="compt-general mt-5 ps-5 pe-5 mb-5">
               <h3 class="ps-5 text-danger fs-1">Resolución de problemas</h3>
               <div class="d-flex flex-row justify-content-between">
                 <p class="w-50 ps-5 pe-5 pt-4 fs-5">Dentro de mi empresa nos encargamos de monitorear y asignar el acceso a nuestra red Wifi para los usuarios y visitantes, pero en un momento se genero un desorden y muchas personas externas podian acceder, con ello llevando a saturar la red y el ancho de banda. En visto de ello me encarge de realizar el rastreo de los equipos en la red mediante el uso de el programa IPScanner y asignando cada equipo con IP Estatica mediante Winbox para poder delimitar el ancho de banda y acceso de otros asi evitar la saturacion de la red.
@@ -138,16 +198,64 @@
                   Excel elaborado donde se registro los equipos con sus respectivos IP, MAC y tipo de equipo.
                 </p>
                 <div class="w-25">
-                  <a href="https://upalperu-my.sharepoint.com/:x:/g/personal/freddy_munoz_alu_upal_edu_pe/EWX0UIteZShGpChkRkOUIIwB-fcLa6uziTpyXBNLVuuD7w?e=5O0EgO" target="_blank"><img src="./docs/competencias/captura3.png" alt="" width="350" height="250"></a>
+                  <a href="https://upalperu-my.sharepoint.com/:x:/g/personal/freddy_munoz_alu_upal_edu_pe/EWX0UIteZShGpChkRkOUIIwB-fcLa6uziTpyXBNLVuuD7w?e=5O0EgO" target="_blank"><img src="./docs/competencias/captura3.png" alt="" width="350" height="250" class="img-competencias"></a>
+                </div>
+              </div>
+            </div>
+            <h2 class="text-danger w-100 d-flex justify-content-center fw-bolder fs-1 mt-5 text-title-compt2">COMPETENCIAS ESPECIFICAS</h2>
+            <div class="compt-general mt-5 pe-5 ps-5">
+              <h3 class="ps-5 text-danger fs-1">Gestión de Proyectos</h3>
+              <div class="d-flex flex-row justify-content-between">
+                <p class="w-50 ps-5 pe-5 pt-4 fs-5">Creacion de un proyecto para estimar la rentabilidad de una idea de negocio mediante un proceso de formular y ecuaciones, aplicación realizada con el lenguaje de programacion Python.
+                </p>
+                <p class="w-25 ps-5 pe-5 pt-4 fs-5">
+                  Captura de aplicativo desarrollado en Python
+                </p>
+                <div class="w-25">
+                  <img src="./docs/competencias/proyectocalculo.png" alt="" width="350" height="250" class="img-competencias">
+                </div>
+              </div>
+            </div>
+            <div class="compt-general mt-5 pe-5 ps-5">
+              <h3 class="ps-5 text-danger fs-1">Investigación y diagnóstico</h3>
+              <div class="d-flex flex-row justify-content-between">
+                <p class="w-50 ps-5 pe-5 pt-4 fs-5">Estructura de red realizada en el nuevo packing de mi empresa para que el personal de trabajo puedan acceder a internet y tener acceso a equipos e impresoras conectadas en red.
+                </p>
+                <p class="w-25 ps-5 pe-5 pt-4 fs-5">
+                  Fotos tomadas del trabajo realizado 
+                </p>
+                <div class="w-25">
+                  <img src="./docs/competencias/fotored.jpg" alt="" width="350" height="250" class="img-competencias">
+                </div>
+              </div>
+            </div>
+            <div class="compt-general mt-5 pe-5 ps-5">
+              <h3 class="ps-5 text-danger fs-1">Desarrollo de soluciones innovadoras</h3>
+              <div class="d-flex flex-row justify-content-between">
+                <p class="w-50 ps-5 pe-5 pt-4 fs-5">Desarrollo de un blog desarrollado en Wordpress que sera incluido dentro nuestra pagina oficial de la empresa. Esto permitira mantenernos conectados con nuestros colaboradores y clientes.
+                </p>
+                <p class="w-25 ps-5 pe-5 pt-4 fs-5">
+                  Captura del avance del Blog 
+                </p>
+                <div class="w-25">
+                  <img src="./docs/competencias/captura-blog.png" alt="" width="350" height="250" class="img-competencias">
+                </div>
+              </div>
+            </div>
+            <div class="compt-general mt-5 pe-5 ps-5">
+              <h3 class="ps-5 text-danger fs-1">Calidad del software</h3>
+              <div class="d-flex flex-row justify-content-between">
+                <p class="w-50 ps-5 pe-5 pt-4 fs-5">Creacion de nuevos modulos, funcionalidades y opciones para los usuarios del sistema SIGEX el cual permite llevar un registro de todos los procesos en las diferentes areas de nuestra empresa.
+                </p>
+                <p class="w-25 ps-5 pe-5 pt-4 fs-5">
+                  Pagina web Oficial Extranet 
+                </p>
+                <div class="w-25">
+                 <a href="https://extranet.shumanperu.com/" target="_blank"><img src="./docs/competencias/extranet.png" alt="" width="350" height="250" class="img-competencias"></a> 
                 </div>
               </div>
             </div>
         </div>
-        <!-- <div>
-          <div>
-            <h3>COMPETENCIAS ESPECIFICAS</h3>
-          </div>
-        </div> -->
       </section>
       <section id="contact">
         <div class="w-100 content-contact d-flex position-relative">
