@@ -23,7 +23,7 @@ body{
 }
 
 #main-portada{
-    height: 90vh;
+    height: 100vh;
 }
 
 #ancla{
@@ -161,6 +161,11 @@ footer{
 }
 
 @media (max-width : 768px) {
+    #header{
+        width: 100vw !important;
+        display: flex;
+        justify-content: center;
+    }
     .cert-img{
         width: 400px;
         height: 300px;
@@ -178,10 +183,99 @@ footer{
     .btn-cv{
         width: 50%;
     }
+    #main-portada{
+        padding-top: 10vh;
+    }
+
+    .img-div-portada{
+        height: auto !important;
+    }
+
+    .img-perfil-portada{
+        width: 80%;
+        height: 60%;
+    }
+
+    .img-portada{
+        height: auto !important;
+    }
+
+    #ancla{
+        width: 100%;
+        justify-content: start !important;
+    }
+
+    .content-main-about{
+        flex-direction: column !important;
+        padding-top: 15vh;
+    }
+
+    .sobremi-div{
+        width: 80% !important;
+        padding: 0 !important;
+    }
     
+    .img-sobremi{
+        width: 80% !important;
+    }
+
+    .cert-img{
+        width: 100% !important;
+    }
+    
+    .compt-general{
+        flex-direction: column !important;
+    }
+
+    .content-compt-card{
+        flex-direction: column !important;
+    }
+
+    .content-compt-card > p{
+        width: 100% !important;
+    }
+
+    .content-compt-card > div{
+        width: 100% !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contact-content{
+        flex-direction: column !important;
+        justify-content: center;
+        height: auto !important;
+        padding: 0;
+        width: 100% !important;
+    }
+
+    .contact-content1{
+        display: none !important;
+    }
+
+    .contact-content > div{
+        width: 100% !important;
+        padding: 0 5vh 0 5vh !important;
+    }
+
+    #contact{
+        height: auto !important;
+    }
+
+    .codigo-qr{
+        width: 100px;
+    }
+
+    .contact-content3{
+        margin-top: 5vh;
+        width: 100% !important;
+        margin-bottom: 15vh;
+        justify-content: center !important;
+    }
 }
 
-@media (max-width : 1024px) {
+/* @media (max-width : 1024px) {
     .cert-img{
         width: 300px;
         height: 250px;
@@ -211,4 +305,85 @@ footer{
     .ancla2{
         display: none !important;
     }
+} */
+
+@media (max-width : 425px) {
+    #main-portada{
+        padding-top: 15vh;
+        flex-direction: row;
+    }
+
+
+    #header{
+        height: 12vh !important;
+        font-size: 0.9rem !important;
+    }
+
+    .social-link{
+        display: none;
+    }
+
+    .link-page{
+        width: 100% !important;
+        display: flex !important;
+        justify-content: center !important;
+    }
+
+    .img-div-portada{
+        width: 100% !important;
+        display: flex !important;
+        justify-content: center !important;
+    }
+
+    .img-perfil-portada{
+        width: 70%;
+        height: 70%;
+        filter: none;
+    }
+
+    .title-main{
+        font-size: 1rem !important;
+        padding-top: 0px;
+    }
+
+    .img-portada{
+        width: 100% !important;
+        height: auto;
+    }
+
+    .text-title-compt{
+        width: 100% !important;
+    }
+
+    .content-competencias{
+        width: 100% !important;
+    }
+
+    .compt-general{
+        width: 100% !important;
+        padding: 0!important;
+    }
+
+    .compt-general > h3{
+        padding: 0 !important;
+    }
+
+    .content-competencias{
+        width: 100% !important;
+    }
+
+    .content-compt-card > p{
+        width: 100% !important;
+        padding: 0 !important;
+    }
+
+    #ancla{
+        width: 100%;
+        justify-content: center !important;
+    }
+
+    footer > h5{
+        font-size: 0.8rem !important;
+    }
+
 }

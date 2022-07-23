@@ -13,7 +13,7 @@
 </head>
 <body>
     <header class="d-flex justify-content-between align-items-center" id="header">
-      <div class="w-75">
+      <div class="w-75 link-page">
         <ul class="nav justify-content-center p-4">
           <li><a href="#main-portada" class="nav-link px-2 link-danger fw-bolder li-menu-ul">Inicio</a></li>
           <li><a href="#about" class="nav-link px-2 link-light ms-4 fw-bolder li-menu-ul">Sobre mí</a></li>
@@ -21,7 +21,7 @@
           <li><a href="#contact" class="nav-link px-2 link-light ms-4 fw-bolder li-menu-ul">Contacto</a></li>
         </ul>
       </div>
-      <div class="w-25">
+      <div class="w-25 social-link">
         <ul class="d-flex justify-content-center p-4">
           <li class="social nav-link">
             <a href="https://www.facebook.com/freddy.munoz.338658" target="_blank"><img src="./images/iconos/facebook.png" alt="facebook" title="Facebook"></a>
@@ -34,7 +34,7 @@
     </header>
     <main>
       <section class="d-flex flex-wrap w-100 justify-content-center" id="main-portada">
-          <div class="d-flex justify-content-end align-items-center ms-5">
+          <div class="d-flex justify-content-end align-items-center ms-5 img-div-portada">
             <div class="img-portada">
               <img src="./images/fotportada.png" alt="" class="img-perfil-portada">
             </div>
@@ -47,16 +47,16 @@
             <button type="button" class="btn btn-danger btn-lg px-4 gap-3 mt-4 btn-projects"><a href="#contact" class="nav-link px-2 link-light fs-4">Contacto</a></button>
           </div>
         </div>
-      </section>
-      <section id="ancla" class="d-flex justify-content-center align-items-center ancla1">
-        <a href="#about" class="text-light"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-arrow-down-circle-fill" viewBox="0 0 16 16">
-          <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V4.5z"/>
-        </svg></a>
+        <section id="ancla" class="d-flex justify-content-center align-items-center ancla1 position-absolute bottom-0">
+          <a href="#about" class="text-light"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-arrow-down-circle-fill" viewBox="0 0 16 16">
+            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V4.5z"/>
+          </svg></a>
+        </section>
       </section>
       <section id="about">
         <div class="content-main-about">
           <div class="col-sm-1"></div>
-          <div class="d-flex flex-column text-white col-sm-4 ps-5">
+          <div class="d-flex flex-column text-white col-sm-4 ps-5 sobremi-div">
             <p class="text-dark fw-bolder d-flex justify-content-center text-about-title mt-2">Sobre mí</p>
             <div class="mt-3"><p class="text-justify text-dark text-about fw-bolder">Mi nombre es Freddy Muñoz soy Tecnico en Computacion e Informática. Actualmente estudio la carrera de Ingenieria de Software en la UNIVERSIDAD PRIVADA ALEMANO PERUANA. Me considero una persona con capacidad de trabajo en equipo, autodidacta, aprendizaje rapido, adaptabilidad, paciencia, capacidad de respuesta y siempre me encuentro en constante aprendizaje. Me gusta hacer deporte, jugar futbol, atletismo y otras actividades. Especialista en software, hardware, redes y base de datos. Desarrollador web capacitado en lenguajes de programación como Javascript, PHP, preprocesador SASS, framework Bootstrap, Libreria React JS y CMS WordPress.</p>
             </div>
@@ -64,7 +64,7 @@
               <button type="button" class="btn btn-danger btn-lg px-4 gap-3 mt-4 btn-cv"><a href="./docs/CV-FreddyMuñoz.pdf" target="_blank" class="nav-link px-2 link-light">Ver mi CV</a></button>
             </div>
           </div>
-          <div class="col-sm-6">
+          <div class="col-sm-6 img-sobremi">
             <div class="d-flex flex-wrap justify-content-center align-items-center mt-3 p-4">
               <div class="doc-pdf p-3"><img src="./images/futbol.jpg" alt="" class="cert-img" data-bs-toggle="modal" data-bs-target="#modal1"></div>
               <div class="doc-pdf p-3"><img src="./docs/diploma-mobile-first_001.png" alt="" class="cert-img" data-bs-toggle="modal" data-bs-target="#modal2"></div>
@@ -139,20 +139,20 @@
             <h2 class="text-danger w-100 d-flex justify-content-center fw-bolder fs-1 text-title-compt">COMPETENCIAS GENERALES</h2>
             <div class="compt-general mt-5 pe-5 ps-5">
               <h3 class="ps-5 text-danger fs-1">Liderazgo</h3>
-              <div class="d-flex flex-row justify-content-between">
-                <p class="w-50 ps-5 pe-5 pt-4 fs-5">Lidere mi equipo de trabajo del curso de Fundamentos de Programacion I, organizando y designando las tareas y puntos a trabajar dentro del curso y para la presentacio de nuestro proyecto. Con mi experiencia tambien apoye a mis compañeros en el aprendizaje de este curso y lenguaje de programacion que estabamos aprendiendo.
+              <div class="d-flex flex-row justify-content-between content-compt-card">
+                <p class="w-50 ps-5 pe-5 pt-4 fs-5 content-compt-card1">Lidere mi equipo de trabajo del curso de Fundamentos de Programacion I, organizando y designando las tareas y puntos a trabajar dentro del curso y para la presentacio de nuestro proyecto. Con mi experiencia tambien apoye a mis compañeros en el aprendizaje de este curso y lenguaje de programacion que estabamos aprendiendo.
                 </p>
-                <p class="w-25 ps-5 pe-5 pt-4 fs-5">
+                <p class="w-25 ps-5 pe-5 pt-4 fs-5 content-compt-card2">
                   Elaboracion de nuestro proyecto en formato PDF el cual sustentamos y se desarrollo en Python. 
                 </p>
-                <div class="w-25">
-                  <object data="./docs/competencias/Proyecto Final Fundamentos de programacion.pdf" height="250px" width="350" scrollbar="0" class="img-competencias"></object>
+                <div class="w-25 content-compt-card3">
+                  <object data="/docs/competencias/Proyecto Final Fundamentos de programacion.pdf" height="250px" width="350" scrollbar="0" class="img-competencias"></object>
                 </div>
               </div>
             </div>
             <div class="compt-general mt-5 ps-5 pe-5">
               <h3 class="ps-5 text-danger fs-1">Pensamiento crítico</h3>
-              <div class="d-flex flex-row justify-content-between">
+              <div class="d-flex flex-row justify-content-between content-compt-card">
                 <p class="w-50 ps-5 pe-5 pt-4 fs-5">Al ingresar a mi trabajo como desarrollador me comprometi a aprender lo necesario y estar siempre actualizado con las nuevas tecnologias y vesiones de los lenguajes de programacion usados dentro de mi empresa. Si bien en mis inicios mi logica de programacion y estructura era de tipo codigo espagueti. Hoy en dia analizo y estructuro mis codigos para realizar un codigo entendible y un sistema escalable. 
                 </p>
                 <p class="w-25 ps-5 pe-5 pt-4 fs-5">
@@ -167,7 +167,7 @@
             </div>
             <div class="compt-general mt-5 ps-5 pe-5">
               <h3 class="ps-5 text-danger fs-1">Comunicación efectiva</h3>
-              <div class="d-flex flex-row justify-content-between">
+              <div class="d-flex flex-row justify-content-between content-compt-card">
                 <p class="w-50 ps-5 pe-5 pt-4 fs-5">Desarrolle la version en Ingles de nuestra Pagina Web ya que nuestros clientes (importadores) son de otros paises y no todos pueden entender el idioma español, por ello propuse y asumi el cargo de crear esta version que nos permita llegar directamente a ellos y clientes de otros paises.
                 </p>
                 <p class="w-25 ps-5 pe-5 pt-4 fs-5">
@@ -180,7 +180,7 @@
             </div>
             <div class="compt-general mt-5 ps-5 pe-5">
               <h3 class="ps-5 text-danger fs-1">Equipos interdisciplinarios</h3>
-              <div class="d-flex flex-row justify-content-between">
+              <div class="d-flex flex-row justify-content-between content-compt-card">
                 <p class="w-50 ps-5 pe-5 pt-4 fs-5">En mi campo laboral y cargo que tengo en mi empresa como asistente de sistemas y desarrollador web la comunicación efectiva y que puedan entender lo que quiero dar a conocer es muy importante, tambien estar al pendiente de las necesidades del personal dentro de mi empresa. Usamos el software Trello que me permite llevar un orden de todas las tareas pendientes y los realizadas.  
                 </p>
                 <p class="w-25 ps-5 pe-5 pt-4 fs-5">
@@ -193,7 +193,7 @@
             </div>
             <div class="compt-general mt-5 ps-5 pe-5 mb-5">
               <h3 class="ps-5 text-danger fs-1">Resolución de problemas</h3>
-              <div class="d-flex flex-row justify-content-between">
+              <div class="d-flex flex-row justify-content-between content-compt-card">
                 <p class="w-50 ps-5 pe-5 pt-4 fs-5">Dentro de mi empresa nos encargamos de monitorear y asignar el acceso a nuestra red Wifi para los usuarios y visitantes, pero en un momento se genero un desorden y muchas personas externas podian acceder, con ello llevando a saturar la red y el ancho de banda. En visto de ello me encarge de realizar el rastreo de los equipos en la red mediante el uso de el programa IPScanner y asignando cada equipo con IP Estatica mediante Winbox para poder delimitar el ancho de banda y acceso de otros asi evitar la saturacion de la red.
                 </p>
                 <p class="w-25 ps-5 pe-5 pt-4 fs-5">
@@ -207,7 +207,7 @@
             <h2 class="text-danger w-100 d-flex justify-content-center fw-bolder fs-1 mt-5 text-title-compt2">COMPETENCIAS ESPECIFICAS</h2>
             <div class="compt-general mt-5 pe-5 ps-5">
               <h3 class="ps-5 text-danger fs-1">Gestión de Proyectos</h3>
-              <div class="d-flex flex-row justify-content-between">
+              <div class="d-flex flex-row justify-content-between content-compt-card">
                 <p class="w-50 ps-5 pe-5 pt-4 fs-5">Creacion de un proyecto para estimar la rentabilidad de una idea de negocio mediante un proceso de formular y ecuaciones, aplicación realizada con el lenguaje de programacion Python.
                 </p>
                 <p class="w-25 ps-5 pe-5 pt-4 fs-5">
@@ -220,7 +220,7 @@
             </div>
             <div class="compt-general mt-5 pe-5 ps-5">
               <h3 class="ps-5 text-danger fs-1">Investigación y diagnóstico</h3>
-              <div class="d-flex flex-row justify-content-between">
+              <div class="d-flex flex-row justify-content-between content-compt-card">
                 <p class="w-50 ps-5 pe-5 pt-4 fs-5">Estructura de red realizada en el nuevo packing de mi empresa para que el personal de trabajo puedan acceder a internet y tener acceso a equipos e impresoras conectadas en red.
                 </p>
                 <p class="w-25 ps-5 pe-5 pt-4 fs-5">
@@ -233,7 +233,7 @@
             </div>
             <div class="compt-general mt-5 pe-5 ps-5">
               <h3 class="ps-5 text-danger fs-1">Desarrollo de soluciones innovadoras</h3>
-              <div class="d-flex flex-row justify-content-between">
+              <div class="d-flex flex-row justify-content-between content-compt-card">
                 <p class="w-50 ps-5 pe-5 pt-4 fs-5">Desarrollo de un blog desarrollado en Wordpress que sera incluido dentro nuestra pagina oficial de la empresa. Esto permitira mantenernos conectados con nuestros colaboradores y clientes.
                 </p>
                 <p class="w-25 ps-5 pe-5 pt-4 fs-5">
@@ -246,7 +246,7 @@
             </div>
             <div class="compt-general mt-5 pe-5 ps-5">
               <h3 class="ps-5 text-danger fs-1">Calidad del software</h3>
-              <div class="d-flex flex-row justify-content-between">
+              <div class="d-flex flex-row justify-content-between content-compt-card">
                 <p class="w-50 ps-5 pe-5 pt-4 fs-5">Creacion de nuevos modulos, funcionalidades y opciones para los usuarios del sistema SIGEX el cual permite llevar un registro de todos los procesos en las diferentes areas de nuestra empresa.
                 </p>
                 <p class="w-25 ps-5 pe-5 pt-4 fs-5">
@@ -260,11 +260,9 @@
         </div>
       </section>
       <section id="contact">
-        <div class="w-100 content-contact d-flex position-relative">
-          <div class="col-sm-2">
-            
-          </div>
-          <div class="col-sm-4 mt-5">
+        <div class="w-100 content-contact d-flex position-relative contact-content">
+          <div class="col-sm-2 contact-content1"></div>
+          <div class="col-sm-4 mt-5 contact-content2">
             <div class="contact-list mt-3 d-flex align-items-center">
               <img src="./images/iconos/correo.png" alt="">
               <h5 class="ms-2 text-secondary">freddymh_07_95@hotmail.com</h5>
@@ -290,7 +288,7 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-4">
+          <div class="col-sm-4 contact-content3">
             <div>
               <h2 class="text-danger fw-bolder">Contactame</h2>
             </div>
