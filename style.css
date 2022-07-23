@@ -156,6 +156,10 @@ footer{
     margin-top: 20vh !important;
 }
 
+.codigo-qr{
+    border: 1px solid black;
+}
+
 @media (max-width : 768px) {
     .cert-img{
         width: 400px;
